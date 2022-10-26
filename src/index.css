@@ -1,0 +1,76 @@
+* {
+  margin: 1rem;
+  font-weight: bolder;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8bbccc;
+  color: #5c2e7e;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.input-text-area,
+.output-text-area {
+  height: 10rem;
+  width: 30rem;
+  background-color: #5c2e7e;
+  /* color: #150050; */
+  color: #8bbccc;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  outline: none;
+  padding: 1rem;
+}
+h1 {
+  color: #5c2e7e;
+  font-size: 3rem;
+}
+
+.translate-btn {
+  height: 3rem;
+  width: 8rem;
+  border-radius: 5px;
+  border: 2px solid #5c2e7e;
+  background-color: #8bbccc;
+  color: #5c2e7e;
+  outline: none;
+  font-size: 1rem;
+}
+
+.translate-btn:hover {
+  background-color: #5c2e7e;
+  color: #8bbccc;
+}
+
+select {
+  width: 6rem;
+  border: 2px solid #5c2e7e;
+  background-color: #8bbccc;
+  color: #5c2e7e;
+  outline: none;
+}
+
+.input-output-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
